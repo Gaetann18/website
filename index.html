@@ -1,118 +1,485 @@
 <!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/app.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
-    <title>Mineaurion</title>
-</head>
-<body class="container">
-    <div id="top">
-        <div id="infos">
-            <span id="onlinePlayers">Joueurs en ligne : <span id="onlinePlayerscount">5</span></span>
-            <span id="uniquePlayer">Joueurs uniques: <span id="uniquePlayercount">47384</span></span> 
-        </div>
-        <div id="social">
-            <span id="social-title">Rejoins nous :</span>
-            <ul id="social-links">
-                <li id="social-link-discord">
-                    <a href="#"><img src="assets/img/discord.svg" alt=""></a>
-                </li>
-                <li id="social-link-ytb">
-                    <a href="#"><img src="assets/img/ytb.svg" alt=""></a>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <header>
-        <nav>
-            <ul id="navbarleft">
-            <li><a class="navlink" href="">FORUM</a></li>
-            <li><a class="navlink" href="">WIKI</a></li>
-            <li><a class="navlink" href="">RÉCOMPENSES</a></li>
-            <li><a class="navlink" href="">BOUTIQUE</a></li>
-            </ul>
-            <span id="logo"><a href=""><img src="assets/img/logo.svg" alt=""></a></span>
-            <ul id="navbarright">
-                <li><a class="navlink" href="">NOS SERVEURS</a></li>
-                <li><a class="navlink" href="">STATUTS</a></li>
-                <li><a class="navlink" href="">RÈGLEMENT</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section id="hero">
-        <div id="hero-left">
-            <div id="hero-text">
-                <h1>Mineaurion</h1>
-                <p>Une expérience unique, des modpacks, une communauté</p>
-                <p>Rejoins nous !</p>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gaëtan PAVIOT</title>
+    <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/flexslider.css" rel="stylesheet" >
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/queries.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+      </head>
+      <body id="top">
+        <header id="home">
+          <nav>
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">
+                  <nav class="pull">
+                    <ul class="top-nav">
+                      <li><a href="#intro">Présentation <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
+                      <!-- <li><a href="#features">Classes <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li> -->
+                      <li><a href="#responsive">Mes valeurs<span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
+                      <li><a href="#portfolio">Portfolio<span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
+                      <li><a href="#team">Mes projets<span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
+                      <li><a href="#contact">Coordonnées<span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
             </div>
-            <span><a href=""><button id="hero-btn">JOUER GRATUITEMENT</button></a></span>
-        </div>
-        <div id="hero-right">
-            <img src="assets/img/llama.svg" alt="" id="lama">
-        </div>
-    </section>
-    <section id="features">
-        <div class="feature">
-            
-            <div class="feature-title">
-                <img class="feature-logo"" src="assets/img/support.svg" alt=""></span>
-                <h2>SUPPORT ACTIF</h2>
+          </nav>
+          <section class="hero" id="hero">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12 text-right navicon">
+                  <a id="nav-toggle" class="nav_slide_button" href="#"><span></span></a>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-8 col-md-offset-2 text-center inner">
+                  <h1 class="animated fadeInDown">Gaëtan<span>PAVIOT</span></h1>
+                  <p class="animated fadeInUp delay-05s">Bienvenue sur mon site internet</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center">
+                  <a href="#contact" class="learn-more-btn">Me contacter</a>
+                </div>
+              </div>
             </div>
-            <span class="feature-text"><p>Les membres du staff sont présents pour vous, sur les serveurs, sur le forum mais aussi sur le discord.</p></span>
-        </div>
-        <div class="feature">
-            <div class="feature-title">
-                <img class="feature-logo"" src="assets/img/support.svg" alt=""></span>
-                <h2>SUPPORT ACTIF</h2>
+          </section>
+        </header>
+        <section class="intro text-center section-padding" id="intro">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2 wp1">
+                <h1 class="arrow">Me concernant</h1>
+                <p>Formateur technique, responsable informatique et réseau de communication au <a href="http://cfa-mfeo.fr">CFA MFEO de Sorigny</a>.<br> Administrateur des serveurs <a href="http://mineaurion.com">Mineaurion</a> depuis 2018.<br>
+                   Passionné de nouvelles technologies, photographies, CAO, électroniques et mécaniques.
+                   Autodidacte dans l'âme. Chaques jours est enrichie de nouvelles connaissances.</p>
+                   <p>"La connaissance s'acquiert par l'expérience, tout le reste n'est que de l'information."<br><i>Albert Einstein</i></p>
+              </div>
             </div>
-            <span class="feature-text"><p>Les membres du staff sont présents pour vous, sur les serveurs, sur le forum mais aussi sur le discord.</p></span>
-        </div>
-        <div class="feature">
-            <div class="feature-title">
-                <img class="feature-logo"" src="assets/img/support.svg" alt=""></span>
-                <h2>SUPPORT ACTIF</h2>
+          </div>
+        </section>
+        <!-- <section class="features text-center section-padding" id="features">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <h1 class="arrow">Liens Divers</h1>
+                <div class="features-wrapper">
+                  <div class="col-md-4 wp2">
+                    <div class="icon">
+                      <i class="fa fa-laptop shadow"></i>
+                    </div>
+                    <h2>1BAC1</h2>
+                    <p>askip y'a rien encore</p>
+                  </div>
+                  <div class="col-md-4 wp2 delay-05s">
+                    <div class="icon">
+                      <i class="fa fa-laptop shadow"></i>
+                    </div>
+                    <h2><a href="http://1bac2.gaetan-paviot.fr">1BAC2</a></h2>
+                    <p>Pour acceder aux divers documents lié à votre session, rendez-vous <a href="http://1bac2.gaetan-paviot.fr">ici</a></p>
+                  </div>
+                  <div class="col-md-4 wp2 delay-1s">
+                    <div class="icon">
+                      <i class="fa fa-laptop shadow"></i>
+                    </div>
+                    <h2><a href="http://1bac2.gaetan-paviot.fr">1BAC3</a></h2>
+                    <p>Pour acceder aux divers documents lié à votre session, rendez-vous <a href="http://1bac3.gaetan-paviot.fr">ici</a></p>
+                  </div>
+                  <div class="clearfix"></div>
+                </div>
+              </div>
             </div>
-            <span class="feature-text"><p>Les membres du staff sont présents pour vous, sur les serveurs, sur le forum mais aussi sur le discord.</p></span>
-        </div>
-    </section>
-    <section id="launcher">
-        <h2>Télécharger notre launcher</h2>
-        <p>Nous avons développé notre launcher pour vous ! Il permet de vous connecter avec plus de facilités, d'avoir accès à certains contenus exclusifs. 
-            Alors n'hésitez pas, téléchargez le !
-        </p>
-        <div id="btns">
-            <a href="" id="btn-launcher-windows">
-                <button class="btn-launcher">
-                    <img src="assets/img/Windows.svg" alt="">
-                    <span>Launcher Windows</span>
-                </button>
-            </a> 
-            <a href="" id="btn-launcher-linux">
-                <button class="btn-launcher">
-                    <img src="assets/img/Linux.svg" alt="">
-                    <span>Launcher Linux</span>
-                </button>
-            </a>
-        </div>
-    </section>
-    <section id="servers-list">
+          </div>
+        </section> -->
+        <section class="text-center" id="responsive">
+          <div class="container-fluid nopadding responsive-services">
+            <div class="wrapper">
+              <div class="iphone">
+                <div class="wp3"></div>
+              </div>
+              <div class="fluid-white"></div>
+            </div>
+            <div class="container designs">
+              <div class="row">
+                <div class="col-md-5 col-md-offset-7">
+                  <div id="servicesSlider">
+                    <ul class="slides">
+                      <li>
+                        <h1 class="arrow">Mes valeurs personnelles</h1>
+                        <p>La bienveillance</p>
+                        <p>On n'a pas deux coeurs, un pour les animaux et un pour les humains. On a un coeur ou on n'en a pas</p>
+                        <p>Ne jamais oublier ses racines</p>
+                        <p>Pendant que l’on cherche à comprendre, le temps passe et la vie avec lui</p>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                      </li>
+                      <li>
+                        <h1 class="arrow">Mes valeurs liée à l'enseignement</h1>
+                        <p>Le respect d’autrui et la bienveillance sont l’une des nombreuses valeurs fondamentales</p>
+                        <p>Le savoir être passe par la transmission de savoirs envers autrui</p>
+                        <p>S’adapter à toutes sortes de situations variées et nuancé ceci en fonction du public qui vous écoute</p>
+                        <p>L'épanouissement personnel</p>
+                        <p>  </p>
+                        <p>  </p>
+                        <p>  </p>
+                      </li>
+                      <li>
+                        <h1 class="arrow">Mes valeurs professionnelles</h1>
+                        <p>L’intégrité et l’honnêteté</p>
+                        <p>L’envie de se développer et d’apprendre</p>
+                        <p>La responsabilité et la loyauté</p>
+                        <p>L’éthique professionnelle et le professionnalisme</p>
+                        <p>L'autonomie et l'adaptativité</p>
+                        <p></p>
+                        <p></p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="swag text-center">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2">
+                <h1>Je suis passionné par tout ce qui m'entoure<span> Venez découvrir mon univers</span></h1>
+                <a href="#portfolio" class="down-arrow-btn"><i class="fa fa-chevron-down"></i></a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="portfolio text-center section-padding" id="portfolio">
+          <div class="container">
+            <div class="row">
+              <div id="portfolioSlider">
+                <ul class="slides">
+                  <li>
+                    <div class="col-md-4 wp4">
+                      <div class="overlay-effect effects clearfix">
+                        <div class="img">
+                          <img src="img/portfolio-02.jpg" alt="Portfolio Item">
+                          <div class="overlay">
+                            <a href="#" class="expand"><i class="fa fa-search"></i><br>View More</a>
+                            <a class="close-overlay hidden">x</a>
+                          </div>
+                        </div>
+                      </div>
+                      <h2>L'hydraulique</h2>
+                      <p>Conception circuit</p>
+                      <p>Etude circuit</p>
+                      <p>Symbolisations</p>
+                      <p>Automatisation avancée élécto-hydraulique</p>
+                      <p>Système de freinage hybride hydro-pneumatique</p>
+                      <p>Hydrostatique</p>
+                      <p>Hydrodynamique</p>
 
-    </section>
-    <footer>
-        <div id="footer-top">
-            <span id="footer-arrow">
+                    </div>
+                    <div class="col-md-4 wp4 delay-05s">
+                      <div class="overlay-effect effects clearfix">
+                        <div class="img">
+                          <img src="img/portfolio-02.jpg" alt="Portfolio Item">
+                          <div class="overlay">
+                            <a href="#" class="expand"><i class="fa fa-search"></i><br>View More</a>
+                            <a class="close-overlay hidden">x</a>
+                          </div>
+                        </div>
+                      </div>
+                      <h2>L'électronique / Electricité </h2>
+                      <p>Conception circuit</p>
+                      <p>Etude circuit</p>
+                      <p>Symbolisations</p>
+                      <p>Automatisation avancée</p>
+                    </div>
+                    <div class="col-md-4 wp4 delay-1s">
+                      <div class="overlay-effect effects clearfix">
+                        <div class="img">
+                          <img src="img/portfolio-02.jpg" alt="Portfolio Item">
+                          <div class="overlay">
+                            <a href="#" class="expand"><i class="fa fa-search"></i><br>View More</a>
+                            <a class="close-overlay hidden">x</a>
+                          </div>
+                        </div>
+                      </div>
+                      <h2>Diagnostic</h2>
+                      <p>Etude de système</p>
+                      <p>Methodologie</p>
+                      <p>Recherche disfonctionnement</p>
+                      <P>Logique combinatoire</P>
+                      <p>Conception logigramme de solution</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="col-md-4 wp4">
+                      <div class="overlay-effect effects clearfix">
+                        <div class="img">
+                          <img src="img/portfolio-02.jpg" alt="Portfolio Item">
+                          <div class="overlay">
+                            <a href="#" class="expand"><i class="fa fa-search"></i><br>View More</a>
+                            <a class="close-overlay hidden">x</a>
+                          </div>
+                        </div>
+                      </div>
+                      <h2>Mécanique</h2>
+                      <p>Transmission</p>
+                      <p>Motorisation</p>
+                      <P>RCO</P>
+                      <P></P>
+                    </div>
+                    <div class="col-md-4 wp4 delay-05s">
+                      <div class="overlay-effect effects clearfix">
+                        <div class="img">
+                          <img src="img/portfolio-02.jpg" alt="Portfolio Item">
+                          <div class="overlay">
+                            <a href="#" class="expand"><i class="fa fa-search"></i><br>View More</a>
+                            <a class="close-overlay hidden">x</a>
+                          </div>
+                        </div>
+                      </div>
+                      <h2>Informatique</h2>
+                      <p>Developpement Java, HTML, JSON, JS, Python, bash</p>
+                      <p>Administration système</p>
+                      <p>Versioning, CI/CD git </p>
+                      <p>Gestion VM ptérodactyl / Multicraft</p>
+                      <p>Automatisations</p>
+                      <P>Gestion AD google / Microsoft </P>
+                      <p>GLPI / GRAFANA / GITLAB / ZABBIX / SWAGGER</p>
+                    </div>
+                    <div class="col-md-4 wp4 delay-1s">
+                      <div class="overlay-effect effects clearfix">
+                        <div class="img">
+                          <img src="img/portfolio-02.jpg" alt="Portfolio Item">
+                          <div class="overlay">
+                            <a class="close-overlay hidden">x</a>
+                          </div>
+                        </div>
+                      </div>
+                      <h2>Pneumatique</h2>
+                      <p>Conception circuit</p>
+                      <p>Etude circuit</p>
+                      <p>Symbolisations</p>
+                      <p>Automatisation avancée élécto-pneumatique</p>
+                      <P>Système de freinage hybride hydro-pneumatique</P>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section> -->
+        <div class="ignite-cta text-center">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <a href="#hero" class="ignite-btn">Remonter en haut</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <section class="team text-center section-padding" id="team">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <h1 class="arrow">Mes hobbies qui me tiennent à coeur</h1>
+              </div>
+            </div>
+            <div class="row">
+              <div class="team-wrapper">
+                <div id="teamSlider">
+                  <ul class="slides">
+                    <li>
+                      <div class="col-md-4 wp5">
+                        <img src="img/team-01.png" alt="Team Member" width="290" height="290">
+                        <h2>Mineaurion.com</h2>
+                        <p>Serveurs de jeux basé sur minecraft</p>
+                        <div class="social">
+                          <ul class="social-buttons">
+                            <li><a href="http://www.mineaurion.com" class="social-btn"><i class="fa fa-dribbble"></i></a></li>
+                            <li><a href="http://www.github.com/mineaurion" class="social-btn"><i class="fa fa-github"></i></a></li>
+                            <li><a href="http://www.mineaurion.com/discord" class="social-btn"><i class="fa fa-dribbble"></i></a></li>
+                          </ul>
+                        </div>
+                      </div>
 
-            </span>
+                      <div class="col-md-4 wp5 delay-05s">
+                        <img src="img/euphoria.png" alt="Team Member" width="290" height="290">
+                        <h2>Euphoria</h2>
+                        <p>Equipe Overwatch rank 4k6</p>
+                        <div class="social">
+                          <ul class="social-buttons">
+                            <li><a href="#" class="social-btn"><i class="fa fa-angellist"></i></a></li>
+                            <li><a href="#" class="social-btn"><i class="fa fa-angellist"></i></a></li>
+                            <li><a href="#" class="social-btn"><i class="fa fa-angellist"></i></a></li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col-md-4 wp5 delay-05s">
+                        <img src="img/apex-logo.jpg" alt="Team Member" width="290" height="290">
+                        <h2>Apex Legends</h2>
+                        <p>Equipe ApexLegends</p>
+                        <div class="social">
+                          <ul class="social-buttons">
+                            <li><a href="#" class="social-btn"><i class="fa fa-angellist"></i></a></li>
+                            <li><a href="#" class="social-btn"><i class="fa fa-angellist"></i></a></li>
+                            <li><a href="#" class="social-btn"><i class="fa fa-dashcube"></i></a></li>
+                          </ul>
+                        </div>
+                      </div>
+                      
+                      <!-- <div class="col-md-4 wp5 delay-1s">
+                        <img src="img/team-0.png" alt="Team Member">
+                        <h2>...</h2>
+                        <p>...</p>
+                        <div class="social">
+                          <ul class="social-buttons">
+                            <li><a href="#" class="social-btn"><i class="fa fa-dribbble"></i></a></li>
+                            <li><a href="#" class="social-btn"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#" class="social-btn"><i class="fa fa-envelope"></i></a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="col-md-4 wp5">
+                        <img src="img/team-0.png" alt="Team Member">
+                        <h2>...</h2>
+                        <p>...</p>
+                        <div class="social">
+                          <ul class="social-buttons">
+                            <li><a href="#" class="social-btn"><i class="fa fa-dribbble"></i></a></li>
+                            <li><a href="#" class="social-btn"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#" class="social-btn"><i class="fa fa-envelope"></i></a></li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col-md-4 wp5 delay-05s">
+                        <img src="img/team-0.png" alt="Team Member">
+                        <h2>...</h2>
+                        <p>...</p>
+                        <div class="social">
+                          <ul class="social-buttons">
+                            <li><a href="#" class="social-btn"><i class="fa fa-dribbble"></i></a></li>
+                            <li><a href="#" class="social-btn"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#" class="social-btn"><i class="fa fa-envelope"></i></a></li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col-md-4 wp5 delay-1s">
+                        <img src="img/team-0.png" alt="Team Member">
+                        <h2>..;</h2>
+                        <p>...</p>
+                        <div class="social">
+                          <ul class="social-buttons">
+                            <li><a href="#" class="social-btn"><i class="fa fa-dribbble"></i></a></li>
+                            <li><a href="#" class="social-btn"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#" class="social-btn"><i class="fa fa-envelope"></i></a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div> -->
+
+        </section> 
+        <section class="subscribe text-center">
+          <div class="container">
+            <h1><i class="fa fa-paper-plane"></i><span>Envoyez-moi un mail !</span></h1>
+            <form action="mailto:gaetan.paviot@gmail.com">
+              <input type="submit"  value="Cliquez-ici"> 
+            </form> 
+          </div>
+        </section>
+        <section class="dark-bg text-center section-padding contact-wrap" id="contact">
+          <a href="#top" class="up-btn"><i class="fa fa-chevron-up"></i></a>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <h1 class="arrow">Mes coordonnées</h1>
+              </div>
+            </div>
+            <div class="row contact-details">
+              <div class="col-md-4">
+                <div class="light-box box-hover">
+                  <h2><i class="fa fa-map-marker"></i><span>Adresse</span></h2>
+                  <p>Tours, Centre, France</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="light-box box-hover">
+                  <h2><i class="fa fa-info-circle"></i><span>Discord</span></h2>
+                  <p>HyRozzFR#0001</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="light-box box-hover">
+                  <h2><i class="fa fa-paper-plane"></i><span>Email</span></h2>
+                  <p><a href="#">gaetan.paviot@gmail.com</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <ul class="social-buttons">
+                  <li><a href="#" class="social-btn"><i class="fa fa-address-card-o"></i></a></li>
+                  <li><a href="#" class="social-btn"><i class="fa fa-sd"></i></a></li>
+                  <li><a href="#" class="social-btn"><i class="fa fa-sd"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="ignite-cta text-center">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <a href="#hero" class="ignite-btn">Remonter en haut</a>
+              </div>
+            </div>
+          </div>
         </div>
-        <div id="footer-bottom">
-            
-        </div>
-    </footer>
-</body>
-</html>
+        <footer>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <ul class="legals">
+                  <li><a href="/maintenance/maintenance.html">Terms &amp; Conditions</a></li>
+                  <li><a href="/maintenance/maintenance.html">Legals</a></li>
+                  <li> Update 2022 </li>
+                </ul>
+              </div>
+              <div class="col-md-6 credit">
+                <p><a href=#><em>gaetan-paviot.fr</em></a></p>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/waypoints.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/scripts.js"></script>
+        <script src="js/jquery.flexslider.js"></script>
+        <script src="js/modernizr.js"></script>
+      </body>
+    </html>
